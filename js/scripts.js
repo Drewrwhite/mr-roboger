@@ -19,23 +19,29 @@ function beepBoop(number) {
 
   let digitOut = "";
 
-  if (number === 666) {
     digitArray.forEach(function(element) {
       digitOut = digitOut + element + " ";
     });
-    digitOut += "The number of the Beast!";
-  } else {
-    digitOut.forEach(function(element) {
-      digitOut = digitOut + element + " ";
-    });
-  }
-  document.getElementById("misterRobogerSong").style.color = "black";  
-  return digitOut.slice(0,digitOut.length - 1);
+    
+    return digitOut.slice(0,digitOut.length - 1);
   
   
   //User Interface Logic
 // window.addEventListener()
 
+document.getElementById("#digitInput").onsubmit(function(event) {
+
+
+  const numInput = document.querySelector("input#number").value();
+
+  const song = beepBoop(parseInt(numInput));
+  document.querySelector("#misterRobogerSong").text(song);
+
+  document.getElementById("#submitButton").hidden();
+  document.getElementById("#againButton");
 
   event.preventDefault();
+ 
+ }
+}
 }
