@@ -19,18 +19,23 @@ function beepBoop(number) {
 
   let digitOut = "";
 
-  if 
-    (digitArray.forEach(function(element) {
+  if (number === 666) {
+    digitArray.forEach(function(element) {
       digitOut = digitOut + element + " ";
-    })
+    });
+    digitOut += "The number of the Beast!";
+  } else {
+    digitOut.forEach(function(element) {
+      digitOut = digitOut + element + " ";
+    });
+  }
+  document.getElementById("misterRobogerSong").style.color = "black";  
+  return digitOut.slice(0,digitOut.length - 1);
   
-  document.getElementById("misterRobogerSong");  
   
-  return numString.slice(0,digitOut.length - 1);
-
-
   //User Interface Logic
+// window.addEventListener()
 
 
-
-  event.preventDefault();
+//   event.preventDefault();
+}
