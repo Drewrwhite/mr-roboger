@@ -37,5 +37,5 @@ function beepBoop(number) {
 // window.addEventListener()
 
 
-//   event.preventDefault();
+  event.preventDefault();
 }
