@@ -39,9 +39,6 @@ $(document).ready(function () {
     $("#submitButton").hide();
     $("#againButton").show();
 
-
-
     event.preventDefault();
-
   });
 });
