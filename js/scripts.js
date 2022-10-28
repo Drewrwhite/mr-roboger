@@ -29,7 +29,6 @@ function beepBoop(number) {
 
 //User Interface Logic
 
-
 $(document).ready(function () {
   $("#digitInput").submit(function (event) {
 
@@ -39,8 +38,6 @@ $(document).ready(function () {
 
     $("#submitButton").hide();
     $("#againButton").show();
-    // $("#reverseButton").click(function () {
-    //   $("#digitOut").reverseText();
 
 
 
@@ -48,4 +45,3 @@ $(document).ready(function () {
 
   });
 });
-// });
