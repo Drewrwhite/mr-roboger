@@ -6,7 +6,7 @@ function beepBoop(number) {
   const digitArray = [];
 
   for (let index = 0; index <= number; index++) {
-    if(index.toString().includes(3)) {
+    if (index.toString().includes(3)) {
       digitArray[index] = "Won't you be my neighbor?";
     } else if (index.toString().includes(2)) {
       digitArray[index] = "Boop!";
@@ -19,30 +19,30 @@ function beepBoop(number) {
 
   let digitOut = " ";
 
-    digitArray.forEach(function(element) {
-      digitOut = digitOut + element + " ";
-    });
-    
-    return digitOut.slice(0,digitOut.length - 1);
-  
-  }
-  
-  
-  //User Interface Logic
+  digitArray.forEach(function (element) {
+    digitOut = digitOut + element + " ";
+  });
 
-$(document).ready(function() {
-$("#digitInput").submit(function(event) {
+  return digitOut.slice(0, digitOut.length);
+
+}
 
 
-  const numInput = $("input#number").val();
+//User Interface Logic
 
-  const song = beepBoop(parseInt(numInput));
-  $("#misterRobogerSong").text(song);
+$(document).ready(function () {
+  $("#digitInput").submit(function (event) {
 
-  $("#submitButton").hide();
-  $("#againButton").show();
 
-  event.preventDefault();
- 
+    const numInput = $("input#number").val();
+
+    const song = beepBoop(parseInt(numInput));
+    $("#misterRobogerSong").text(song);
+
+    $("#submitButton").hide();
+    $("#againButton").show();
+
+    event.preventDefault();
+
   });
 });
