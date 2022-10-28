@@ -9,6 +9,9 @@ body {
   display: none;
 }
 
+#reverseButton {
+  display: none;
+}
 
 .jumbotron {
   color: rgb(162, 58, 58);

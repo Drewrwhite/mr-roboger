@@ -27,22 +27,25 @@ function beepBoop(number) {
 
 }
 
-
 //User Interface Logic
+
 
 $(document).ready(function () {
   $("#digitInput").submit(function (event) {
 
-
     const numInput = $("input#number").val();
-
     const song = beepBoop(parseInt(numInput));
     $("#misterRobogerSong").text(song);
 
     $("#submitButton").hide();
     $("#againButton").show();
+    // $("#reverseButton").click(function () {
+    //   $("#digitOut").reverseText();
+
+
 
     event.preventDefault();
 
   });
 });
+// });
