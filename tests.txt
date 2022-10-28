@@ -1,0 +1,76 @@
+Test 1
+
+function beepBoop(number) {
+
+return digitArray[i] = i.toString();
+
+Test 2
+
+function beepBoop(number) {
+
+  const digitArray = [];
+
+  for (let i = 0; i <= number; i++) {
+    if(i.toString().includes(1)) {
+      digitArray[i] = “Beep!”;
+    } else {
+      digitArray[i] = i.toString();
+    }
+  }
+
+  let digitOut = "";
+
+
+Test 3
+
+function beepBoop(number) {
+
+  const digitArray = [];
+
+  for (let i = 0; i <= number; i++) {
+    if(i.toString().includes(2)) {
+      digitArray[i] = “Boop!”;
+    } else {
+      digitArray[i] = i.toString();
+    }
+  }
+
+  let digitOut = "";
+
+
+Test 4
+
+function beepBoop(number) {
+
+  const digitArray = [];
+
+  for (let i = 0; i <= number; i++) {
+    if(i.toString().includes(3)) {
+      digitArray[i] = "Won't you be my neighbor?";
+    } else {
+      digitArray[i] = i.toString();
+    }
+  }
+
+  let digitOut = "";
+
+Test 5-8
+
+function beepBoop(number) {
+
+  const digitArray = [];
+
+  for (let i = 0; i <= number; i++) {
+    if(i.toString().includes(3)) {
+      digitArray[i] = "Won't you be my neighbor?";
+    } else if (i.toString().includes(2)) {
+      digitArray[i] = "Boop!";
+    } else if (i.toString().includes(1)) {
+      digitArray[i] = "Beep!";
+    } else {
+      digitArray[i] = i.toString();
+    }
+  }
+
+  let digitOut = "";
+
