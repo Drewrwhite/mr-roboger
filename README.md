@@ -1,3 +1,36 @@
+# _Mister Roboger's Neighborhood_
+
+#### By _**Drew White**_
+
+#### _Mister Roboger's song generator_
+
+## Technologies Used
+
+- _HTML_
+- _CSS_
+- _GIT_
+- _BootStrap_
+- _JavaScript_
+- _jQuery_
+
+## Description
+
+_Mister Roboger's Neighborhood takes user's inputted numbers and generates a song with "Beep!", "Boop!" and "Won't you be my neighbor?" as replacements for "1", "2", and "3"_
+
+## Link to GitHub Pages
+
+[https://drewrwhite.github.io/mr-roboger/](https://drewrwhite.github.io/mr-roboger/)
+
+## Setup/Installation Requirements
+
+- _Clone this with command `https://github.com/Drewrwhite/mr-roboger.git`_
+- _Navigate to the top level of the directory_
+- _Open index.html in your browser_
+- _Answer questions to receive result._
+
+
+## Tests
+
 ```
 Describe: beepBoop()
 
@@ -41,3 +74,15 @@ Code:
 beepBoop(13)
 Expected Output: "0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop! Won't you be my neighbor?"
 ```
+
+## Known Bugs
+
+- _No known bugs_
+
+## License
+
+[MIT](./license.txt)
+
+_If you find any issues, please reach out at: **d.white0002@gmail.com**._
+
+Copyright (c) _2022_ _Drew White_
