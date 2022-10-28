@@ -26,7 +26,7 @@ _Mister Roboger's Neighborhood takes user's inputted numbers and generates a son
 - _Clone this with command `https://github.com/Drewrwhite/mr-roboger.git`_
 - _Navigate to the top level of the directory_
 - _Open index.html in your browser_
-- _Answer questions to receive result._
+- _Input a number and submit to receive result._
 
 
 ## Tests
